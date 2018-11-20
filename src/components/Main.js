@@ -30,7 +30,7 @@ class Main extends React.Component {
           <p>Here, there are some of my skills and what I work with.</p>
           <ul>
             <li>Java <span className="right">&#9733;&#9733;&#9733;&#9733;&#9733;</span></li>
-            <li>Spring (Framework, Boot, Data, Cloud, Security)<span className="right">&#9733;&#9733;&#9733;&#9733;</span></li>
+            <li>Stack Spring <span className="right">&#9733;&#9733;&#9733;&#9733;</span></li>
             <li>Git <span className="right">&#9733;&#9733;&#9733;&#9733;</span></li>
             <li>Scrum<span className="right">&#9733;&#9733;&#9733;&#9733;</span></li>
             <li>Eclipse<span className="right">&#9733;&#9733;&#9733;&#9733;</span></li>
