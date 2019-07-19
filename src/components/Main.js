@@ -20,7 +20,7 @@ class Main extends React.Component {
           <p>I have Bachelor's degree in Information Systems (IT) by UNIPAR - Universidade Paranaense from Paranavaí - state of Paraná -
              Graduate Degree in App Development for Mobile Devices and Graduate Degree in WebMobile Development and Technologies, both by FCV - Faculdade Cidade Verde.</p>
           <p>Also, I'm currently studying Graduate Degree in Object Oriented Development in Java by UNICIV.</p>
-          <p>I started my professional carreer right after finish the college, in January 2015. Now, I work as Software Engineer at DB1 Global Software.</p>
+          <p>I started my professional carreer right after finish the college, in January 2015. Now I work as a Software Engineer, focused on Java and frameworks around it.</p>
           {close}
         </article>
 
@@ -54,7 +54,7 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <p>Feel free to contact me at <a href="mailto:contato@joaoabrodrigues.com">contato@joaoabrodrigues.com</a> or any social network below.</p>
+          <p>Feel free to contact me on any social network below.</p>
           <ul className="icons">
             <li><a href="http://www.linkedin.com/in/joaoabrodrigues" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
             <li><a href="http://www.github.com/joaoabrodrigues" className="icon fa-github"><span className="label">GitHub</span></a></li>

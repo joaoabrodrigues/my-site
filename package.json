@@ -2,7 +2,8 @@
   "name": "gatsby-starter-dimension-v2",
   "description": "Gatsby Starter - Dimension V2",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "João Antônio Bezerra Rodrigues",
+  "homepage": "https://joaoabrodrigues.github.io",
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
@@ -19,7 +20,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build && gh-pages -d public -b master",
+    "build": "gatsby build",
+    "deploy": "gatsby build && gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,6 +32,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/joaoabrodrigues/my-site"
   }
 }
