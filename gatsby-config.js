@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "João Antônio Bezerra Rodrigues",
     author: "João Antônio Bezerra Rodrigues",
-    description: "A short about me"
+    description: "About me"
   },
   plugins: [
     'gatsby-plugin-react-helmet',

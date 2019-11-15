@@ -1,25 +1,37 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import pic03 from '../images/pic03.png'
 
 const Header = (props) => (
-    <header id="header" style={props.timeout ? {display: 'none'} : {}}>
-        <div className="logo">
+    <div>
+     {/* <header id="header" style={props.timeout ? {display: 'none'} : {}}> */}
+        {/* <div className="logo">
             <span className="icon fa-code"></span>
+        </div> */}
+        <div>
+            <span className="image main"><img src={pic03} alt="yeah, that's me!"/></span>
+            <span className="center">
+                <h3>João Antônio Bezerra Rodrigues</h3>
+                <h5>Backend Developer</h5>
+                <h6>Sao Paulo, Brazil</h6>
+            </span>
         </div>
-        <div className="content">
-            <div className="inner">
-                <h1>Hello</h1>
-                <p>Welcome to my site. Here, you will know more about me!</p>
+        <header id="header" style={props.timeout ? {display: 'none'} : {}}>
+            <div className="content">
+                <div className="inner">
+                    <ul className="icons">
+                        <li><a href="http://www.linkedin.com/in/joaoabrodrigues" target="_blank" rel="noopener noreferrer" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                        <li><a href="http://www.github.com/joaoabrodrigues" target="_blank" rel="noopener noreferrer" className="icon fa-github"><span className="label">GitHub</span></a></li>
+                        <li><a href="http://www.facebook.com/joaoabrodrigues" target="_blank" rel="noopener noreferrer" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+                        <li><a href="http://www.instagram.com/joaoabrodrigues" target="_blank" rel="noopener noreferrer" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+                        <li><a href="http://www.twitter.com/joaoabrodrigues" target="_blank" rel="noopener noreferrer" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
+                        <li><a href="mailto:hi@joaorodrigues.dev" className="icon fa-envelope"><span className="label">Email</span></a></li>
+                        <li><a href="https://calendly.com/joaoabrodrigues/lets-talk" target="_blank" rel="noopener noreferrer" className="fa fa-calendar"><span className="label"></span></a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        </header>
+    </div>
 )
 
 Header.propTypes = {
