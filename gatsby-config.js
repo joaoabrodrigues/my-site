@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'joaoabrodrigues.com',
+        name: 'joaorodrigues.dev',
         short_name: 'jaber',
         start_url: '/',
         background_color: '#837E87',
