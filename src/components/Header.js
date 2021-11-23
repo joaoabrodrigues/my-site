@@ -22,11 +22,6 @@ const Header = (props) => (
                     <ul className="icons">
                         <li><a href="http://www.linkedin.com/in/joaoabrodrigues" target="_blank" rel="noopener noreferrer" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
                         <li><a href="http://www.github.com/joaoabrodrigues" target="_blank" rel="noopener noreferrer" className="icon fa-github"><span className="label">GitHub</span></a></li>
-                        <li><a href="http://www.facebook.com/joaoabrodrigues" target="_blank" rel="noopener noreferrer" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-                        <li><a href="http://www.instagram.com/joaoabrodrigues" target="_blank" rel="noopener noreferrer" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-                        <li><a href="http://www.twitter.com/joaoabrodrigues" target="_blank" rel="noopener noreferrer" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-                        <li><a href="mailto:hi@joaorodrigues.dev" className="icon fa-envelope"><span className="label">Email</span></a></li>
-                        <li><a href="https://calendly.com/joaoabrodrigues/lets-talk" target="_blank" rel="noopener noreferrer" className="fa fa-calendar"><span className="label"></span></a></li>
                     </ul>
                 </div>
             </div>
