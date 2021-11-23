@@ -13,7 +13,7 @@ const Header = (props) => (
             <span className="center">
                 <h3>João Antônio Bezerra Rodrigues</h3>
                 <h5>Backend Developer</h5>
-                <h6>Sao Paulo, Brazil</h6>
+                <h6>Maringa, Brazil</h6>
             </span>
         </div>
         <header id="header" style={props.timeout ? {display: 'none'} : {}}>
