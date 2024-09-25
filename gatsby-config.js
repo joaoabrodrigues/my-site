@@ -1,3 +1,6 @@
+const { title } = require("process");
+const { siteMetadata } = require("./old/gatsby-config");
+
 module.exports = {
   plugins: [
     {
