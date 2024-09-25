@@ -1,24 +1,29 @@
 module.exports = {
-  siteMetadata: {
-    title: "João Antônio Bezerra Rodrigues",
-    author: "João Antônio Bezerra Rodrigues",
-    description: "About me"
-  },
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: "gatsby-theme-portfolio-minimal",
       options: {
-        name: 'joaorodrigues.dev',
-        short_name: 'jaber',
-        start_url: '/',
-        background_color: '#837E87',
-        theme_color: '#000000',
-        display: 'standalone',
-        icon: 'src/images/icon.png', // This path is relative to the root of the site.
+        siteUrl: "https://joaorodrigues.dev/", // Used for sitemap generation
+        manifestSettings: {
+          favicon: "./content/images/image.png", // Path is relative to the root
+          siteName: "João Rodrigues", // Used in manifest.json
+          shortName: "JR", // Used in manifest.json
+          startUrl: "/", // Used in manifest.json
+          backgroundColor: "#FFFFFF", // Used in manifest.json
+          themeColor: "#000000", // Used in manifest.json
+          display: "minimal-ui", // Used in manifest.json
+        },
+        contentDirectory: "./content",
+        blogSettings: {
+          path: "/", // Defines the slug for the blog listing page
+          usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
+        },
+        // googleAnalytics: {
+        //     trackingId: "UA-XXXXXX-X",
+        //     anonymize: true, // Default true
+        //     environments: ["production", "development"] // Default ["production"]
+        // }
       },
     },
-    'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
   ],
-}
+};

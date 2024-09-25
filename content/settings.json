@@ -1,0 +1,33 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "https://joaorodrigues.dev/",
+    "title": "João Rodrigues",
+    "titleTemplate": "%s · Social",
+    "description": "João Rodrigues",
+    "author": "João Rodrigues",
+    "avatar": "../content/images/image.png",
+    "bio": "",
+    "social": {
+      "github": "https://github.com/joaoabrodrigues",
+      "linkedin": "https://www.linkedin.com/in/joaoabrodrigues/",
+      "instagram": "https://www.instagram.com/joaoabrodrigues/",
+      "twitter": "https://www.x.com/joaoabrodrigues/",
+      "mail": "mailto:hi@joaorodrigues.dev"
+    }
+  },
+  "siteConfiguration": {
+    "logo": {
+    },
+    "navigation": {
+      "header": [],
+      "ctaButton": {},
+      "footer": []
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": true,
+      "useDarkModeBasedOnUsersPreference": true,
+      "useCookieBar": false
+    }
+  }
+}

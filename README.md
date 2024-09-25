@@ -1,19 +1,54 @@
-# gatsby-starter-dimension
+<img src="screenshot.png" alt="Gatsby Theme Portfolio Minimal Screenshot" width="700" />
 
-**This is a starter for Gatsby.js V2.**
+<a href="https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme" target="_blank">
+<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud" />
+</a>
 
-**The older V1 version of this starter can be found on the v1 branch:**
+# Gatsby Starter Portfolio Minimal Theme
 
-Gatsby.js V2 starter based on the Dimension site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+#### A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.
 
-## Preview
+Portfolio Minimal is a Gatsby Theme that let's you create outstanding one-page portfolios within minutes. This Gatsby Starter is a boilerplate project that has the theme pre-installed and pre-configured.
 
-https://gatsby-dimension.surge.sh/
+Just clone this Gatsby Starter, add the content. And that's it!
+
+[Live Demo on Gatsby Cloud](https://gatsbystarterportfoliominimalt.gatsbyjs.io/) · [Live Demo on Netlify](https://gatsby-starter-portfolio-minimal-theme.netlify.app/) · [Portfolio Minimal Theme on Github](https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal)
+
+---
 
 ## Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-dimension https://github.com/codebushi/gatsby-starter-dimension`
+1. Install the Gatsby CLI
 
-Run `gatsby develop` in the terminal to start the dev site.
+   ```sh
+   npm install -g gatsby-cli
+   ```
+
+2. Create a new Gatsby site with the Portfolio Minimal Starter.
+
+   ```sh
+   gatsby new portfolio-minimal https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme
+   ```
+
+3. Once installed, you can begin developing your site.
+
+   ```sh
+   cd portfolio-minimal
+   gatsby develop
+   ```
+
+4. By default, the Portfolio Minimal Starter has a `content` directory at the root of your Gatsby site. There, you can edit the theme settings as well as add content for your sections. To learn more about it, have a look at the [Readme of Portfolio Minimal](https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal/tree/main/gatsby-theme-portfolio-minimal#readme).
+
+---
+
+## Issues?
+
+If you find any bugs or have feature suggestions, create a new issue or pull request 🙏
+
+Thanks a lot for using this starter! 💪
+
+---
+
+<a href="https://www.buymeacoffee.com/kmuenster" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+Konstantin Münster – [konstantin.digital](https://konstantin.digital)

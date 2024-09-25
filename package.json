@@ -1,37 +1,43 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "gatsby-starter-portfolio-minimal-theme",
   "version": "1.0.0",
-  "author": "João Antônio Bezerra Rodrigues",
-  "homepage": "https://joaoabrodrigues.github.io",
-  "dependencies": {
-    "gatsby": "^2.0.0",
-    "gatsby-plugin-manifest": "^2.0.2",
-    "gatsby-plugin-offline": "^2.0.5",
-    "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-sass": "^2.0.1",
-    "node-sass": "^4.9.3",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
   "scripts": {
-    "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public",
+    "clean": "gatsby clean",
     "develop": "gatsby develop",
-    "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gatsby build",
+    "serve": "gatsby serve"
   },
-  "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "prettier": "^1.14.2"
+  "engines": {
+    "node": ">=18.0.0"
   },
+  "dependencies": {
+    "gatsby": "^5.0.1",
+    "gatsby-theme-portfolio-minimal": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "author": "Konstantin Münster <mail@konstantin.digital>",
+  "license": "0BSD",
+  "starter-name": "gatsby-starter-portfolio-minimal-theme",
+  "homepage": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joaoabrodrigues/my-site"
-  }
+    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme/issues"
+  },
+  "keywords": [
+    "react",
+    "gatsby",
+    "gatsby-theme",
+    "PWA",
+    "portfolio",
+    "showcase",
+    "minimal",
+    "animations",
+    "dark-mode",
+    "gdpr-compliant"
+  ]
 }
