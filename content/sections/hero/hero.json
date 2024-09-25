@@ -16,7 +16,7 @@
   },
   "description": "Here are my social networks, feel free to get in touch.",
   "socialProfiles": {
-    "from": ["LinkedIn", "Github", "Instagram", "Mail", "Twitter"],
+    "from": ["LinkedIn", "Github", "Instagram", "Twitter", "Mail"],
     "showIcons": true
   }
 }
