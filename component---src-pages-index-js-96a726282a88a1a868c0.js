@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_portfolio_minimal_theme=self.webpackChunkgatsby_starter_portfolio_minimal_theme||[]).push([[293],{9639:function(e,t,n){n.r(t),n.d(t,{default:function(){return l}});var r=n(6540),a=n(9535);function l(){return r.createElement(r.Fragment,null,r.createElement(a.YW,null,r.createElement(a.KE,{sectionId:"hero"})))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-96a726282a88a1a868c0.js.map
